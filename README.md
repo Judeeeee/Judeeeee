@@ -1,4 +1,8 @@
-### Hi there 👋
+# 🐷ꔠ⟟ ꔠ⋲ꭱ⋲, ⟟'ᨓ ౮⊔ɗ⋲⋲⋲! 👋
+## 📎ℓ⟟η𝕂ی
+⟟'ℓℓ ⍵ꭱ⟟⍭⋲ ƌβơ⊔⍭ ⟟⍭ یơᨓ⋲ɗƌɣ...👀💭
+
+(ᨓƌɣβ⋲)
 
 <!--
 **Judeeeee/Judeeeee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
