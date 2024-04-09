@@ -7,6 +7,9 @@ on:
 jobs:
   run-main-rb:
     runs-on: ubuntu-latest
+　　　　　　　　timeout-minutes: 3
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
