@@ -23,6 +23,8 @@ jobs:
 
       - name: Run update_readme.rb
         run: ruby update_readme.rb
+        env:
+          TZ: Asia/Tokyo
 
       - name: Git Setting
         run: |
