@@ -7,7 +7,7 @@ on:
 jobs:
   run-main-rb:
     runs-on: ubuntu-latest
-　　　　　　　　timeout-minutes: 3
+    timeout-minutes: 3
     permissions:
       contents: write
 
@@ -18,19 +18,18 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: "3.3"
 
       - name: Run update_readme.rb
-        run: 
-          ruby update_readme.rb
+        run: ruby update_readme.rb
 
       - name: Git Setting
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
- 
+
       - name: Commit and push
-        run: | 
+        run: |
           git add -u
           git commit -m "Update README"
           git push origin main
