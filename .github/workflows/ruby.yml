@@ -29,5 +29,5 @@ jobs:
       - name: Commit and push
         run: | 
           git add -u
-          git commit -m "Update ${{ env.CURRENT_DATETIME }}"
+          git commit -m "Update README"
           git push origin main
