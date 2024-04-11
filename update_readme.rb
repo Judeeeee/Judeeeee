@@ -1,15 +1,14 @@
 def main
-  image_folder = "./pokemon"
   readme = "./README.md"
 
-  update_header_footer(image_folder, readme)
+  update_header_footer(readme)
   update_time(readme)
 end
 
-def update_header_footer(image_folder, readme)
-  num_images = Dir.entries(image_folder).count - 2 # remove '.' and '..'
-  regex = /<img src="\.\/pokemon\/pokemon_\d+\.png" width="1000">/
-  new_image = "<img src=\"./pokemon/pokemon_#{rand(1..num_images)}.png\" width=\"1000\">"
+def update_header_footer(readme)
+  regex = /<img src="\.\/pokemon\/.+\.png" width="1000">/
+  image = Dir.glob('./pokemon/*.png').sample
+  new_image = "<img src=\"#{image}\" width=\"1000\">"
   replace_text(readme, regex, new_image)
 end
 
