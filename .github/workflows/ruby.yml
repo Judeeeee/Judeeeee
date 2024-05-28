@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 0,10 * * *" # AM 9:00 and PM 7:00 in JST
+    - cron: "0 0 * * *" # AM 9:00　in JST
   workflow_dispatch:
 
 jobs:
