@@ -7,7 +7,7 @@ Welcome to mypage!
 
 I'm Judeee🐷
 
-last updated: 2026/5/28 13:20
+last updated: 2026/5/29 13:23
 
 <!-- Footer image -->
 <img src="./pokemon/pokemon_41.png" width="1000">
