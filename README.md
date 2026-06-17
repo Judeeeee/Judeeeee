@@ -1,5 +1,5 @@
 <!-- Header image -->
-<img src="./pokemon/pokemon_37.png" width="1000">
+<img src="./pokemon/pokemon_15.png" width="1000">
 
 # Hi there!👋
 
@@ -7,7 +7,7 @@ Welcome to mypage!
 
 I'm Judeee🐷
 
-last updated: 2026/6/16 14:21
+last updated: 2026/6/17 14:01
 
 <!-- Footer image -->
-<img src="./pokemon/pokemon_37.png" width="1000">
+<img src="./pokemon/pokemon_15.png" width="1000">
